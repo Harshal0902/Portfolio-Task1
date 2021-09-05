@@ -34,5 +34,6 @@ npm start
 ## 🖼️ Some glimpse of the site
 
 Dark Mode
-
+![screencapture-localhost-3000-2021-09-05-23_57_38](https://user-images.githubusercontent.com/64153988/132137515-e8a53c55-52f7-434d-98f1-c00986dc02a7.png)
 Light Mode
+![screencapture-localhost-3000-2021-09-05-23_58_15](https://user-images.githubusercontent.com/64153988/132137520-6050ce0d-3015-4456-8c29-1653c8a2be61.png)
