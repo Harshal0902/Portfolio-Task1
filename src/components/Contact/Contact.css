@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Libre+Baskerville:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+.contact_section {
+  position: relative;
+  padding-bottom: 70px !important;
+  padding-top: 70px !important;
+  font-family: "Libre Baskerville", serif;
+}
+
+.contact_description {
+  padding-top: 10px !important;
+  padding-bottom: 20px !important;
+  text-align: center;
+}
+
+.contact_body {
+  padding-top: 20px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.5em;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.contact_right {
+  align-items: left;
+}
+
+.formEmail{
+  letter-spacing: 0.08rem;
+}
+.fromEmail__mail{
+  color: #45c7e7;
+}
+.form_control_input {
+  width: 100%;
+  border-radius: 15px;
+  max-height: 45px;
+  min-height: 45px;
+  font-size: 23px;
+  font-family: "Libre Baskerville", serif;
+  margin-bottom: 15px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid #2196f3;
+}
+
+.form_control_textarea {
+  width: 100%;
+  border-radius: 15px;
+  font-size: 23px;
+  margin-bottom: 15px;
+  font-family: "Libre Baskerville", serif;
+  min-height: 300px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.img-dev {
+  max-width: 90%;
+  height: auto;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+@media (max-width: 750px) {
+  .contact_description {
+    margin-top: 30px;
+  }
+  .contact_left,
+  .formLogo {
+    font-size: 2rem;
+  }
+  .contact_body {
+    font-size: 1.2rem;
+  }
+  .contact_section {
+    margin-top: 80px;
+  }
+  textarea {
+    width: 100%;
+  }
+}

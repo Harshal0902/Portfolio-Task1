@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap');
+
+.skillsbg {
+    position: absolute;
+    width: 988.59px;
+    height: 165.55px;
+    left: 32.68px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 169px;
+    opacity: 0.2;
+}
+
+.skillsfr {
+    position: absolute;
+    width: 496.2px;
+    height: 54.86px;
+    left: 53px;
+    padding-top: 55px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 56px;
+}
+
+@media (max-width: 750px) {
+    .skillsfr {
+        position: absolute;
+        width: 80vw;
+        height: 29px;
+        font-size: 50px;
+    }
+    .skillsbg {
+        display: none;
+    }
+    .skill_images ul li {
+        display: none;
+    }
+    .skill_images {
+        display: grid;
+        place-items: center;
+    }
+    .skill_images .My_Skill {
+        width: 75px;
+    }
+    .MySkillName:before {
+        margin-top: -15px;
+        margin-left: -10px;
+    }
+}
+
+.skills_section {
+    position: relative;
+    padding-top: 180px !important;
+}
+
+.skills_intro {
+    font-family: 'Gentium Basic', serif;
+    font-size: 2.5rem;
+}
+
+.skills_description {
+    padding-top: 10px !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+    width: 100vw;
+}
+
+.skills_body {
+    padding-top: 50px;
+    font-size: 1.2em !important;
+    text-align: left;
+}
+
+.img_skill {
+    width: 100%;
+    padding: 10px;
+    margin-left: -5%;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.skill_images {
+    display: block;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.My_Skill {
+    width: 90px;
+    cursor: pointer;
+}
+
+.skill_images ul {
+    list-style: none;
+}
+
+.skill_images ul li {
+    display: inline;
+    list-style: none;
+    float: left;
+    padding: 0 10px 35px 0;
+    text-align: center;
+    font-family: 'Gentium Basic', serif;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    #React-logo {
+        animation: React-logo-spin infinite 10s linear;
+    }
+}
+
+@keyframes React-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+[data-tooltip][aria-label] {
+    position: relative;
+}
+
+[data-tooltip][aria-label]::before {
+    content: attr(aria-label);
+    pointer-events: none;
+    white-space: pre;
+    position: absolute;
+    color: #fff;
+    background: #555;
+    padding: 0.08rem 0.5rem;
+    border-radius: 0.3rem;
+    opacity: 0;
+    visibility: none;
+}
+
+[data-tooltip][aria-label]::after {
+    content: "";
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-color: #555;
+    border-width: 0;
+    border-style: solid;
+    opacity: 0;
+    visibility: none;
+}
+
+[data-tooltip^="down"][aria-label]::before {
+    top: calc(2.15rem + 100%);
+    right: 50%;
+    transform: translateX(50%);
+}
+
+[data-tooltip^="down"][aria-label]::after {
+    border-bottom-width: 0.5rem;
+    border-right-width: 0.5rem;
+    border-right-color: #0000;
+    border-left-width: 0.5rem;
+    border-left-color: #0000;
+    top: 250%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+[data-tooltip][aria-label]:hover::before,
+[data-tooltip][aria-label]:hover::after {
+    visibility: visible;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+[data-tooltip$="100"][aria-label]:hover::before,
+[data-tooltip$="100"][aria-label]:hover::after {
+    transition-delay: 0.1s;
+}
+
+[data-tooltip$="500"][aria-label]:hover::before,
+[data-tooltip$="500"][aria-label]:hover::after {
+    transition-delay: 0.5s;
+}
+
+[data-tooltip$="1000"][aria-label]:hover::before,
+[data-tooltip$="1000"][aria-label]:hover::after {
+    transition-delay: 1s;
+}
